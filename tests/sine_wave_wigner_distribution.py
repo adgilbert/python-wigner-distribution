@@ -9,8 +9,7 @@ create_wvd.py
 
 import numpy
 from matplotlib import pyplot
-from toolkits import wigner_toolkit
-from toolkits import signal_toolkit
+from wigner import signal_toolkit, wigner_toolkit
 
 
 def plot_wigner_distribution(
